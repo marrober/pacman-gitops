@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- argocd-app.yaml
+- pacman-project.yaml
+- env/config/image-pull-role-binding.yaml
+- env/config/argocd-platform-cm.yaml
+- env/01-dev/pacman-development.yaml
