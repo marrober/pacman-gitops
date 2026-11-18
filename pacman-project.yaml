@@ -37,6 +37,9 @@ spec:
 
   roles:
   - name: pacman-sync
-    description: Allow syncing the pacman-development application
+    description: Allow syncing the pacman-dev-01 application
     policies:
       - p, proj:pacman-delivery:pacman-sync, applications, sync, pacman-delivery/pacman-dev-01, allow
+      - p, proj:pacman-delivery:pacman-sync, applications, override, pacman-delivery/pacman-dev-01, allow
+      - p, proj:pacman-delivery:pacman-sync, applications, get, pacman-delivery/pacman-dev-01, allow
+      
