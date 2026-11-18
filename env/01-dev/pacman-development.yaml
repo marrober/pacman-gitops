@@ -34,7 +34,7 @@ spec:
     path: env/01-dev
     targetRevision: main
     repoURL: https://github.com/marrober/pacman-gitops.git
-   syncPolicy:
+  syncPolicy:
     automated: 
       prune: true 
       selfHeal: true 
