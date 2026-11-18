@@ -4,6 +4,6 @@ kind: Kustomization
 resources:
 - argocd-app.yaml
 - pacman-project.yaml
-- env/config/image-pull-role-binding.yaml
-- env/config/argocd-platform-cm.yaml
+#- env/config/image-pull-role-binding.yaml
+#- env/config/argocd-platform-cm.yaml
 - env/01-dev/pacman-development.yaml
